@@ -7,7 +7,7 @@ public class Main {
         Vehicle v2 = new Vehicle("Honda", "Civic", 1995);
         Vehicle v3 = new Vehicle("Ford", "Ranger", 2010);
 
-        // Vehicle 1
+        
         System.out.println("===== VEHICLE 1 =====");
         v1.displayInfo();
         System.out.println("Age: " + v1.calculateAge());
