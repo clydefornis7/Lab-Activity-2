@@ -4,15 +4,15 @@ public class Vehicle {
     private String model;
     private int year;
 
-    public Vehicle(String brand, String model, int year) {
-        this.brand = brand;
-        this.model = model;
+    Vehicle(String brand, String model, int year) {
+    this.brand = brand;
+    this.model = model;
 
-        if (year >= 1886 && year <= 2026) {
-            this.year = year;
-        } else {
+    if (year >= 1886 && year <= 2026) {
+        this.year = year;
+    } else {
             this.year = 2026;
-        }
+    }
     }
 
     public String getBrand() {
