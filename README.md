@@ -3,13 +3,12 @@
 
 
 
-\## Description
+## Description
 
 This project demonstrates polymorphism and inheritance in Java using a vehicle example.
 
 
-
-\## Classes
+## Classes
 
 \- `Vehicle.java` – Base class for vehicles.
 
@@ -23,7 +22,7 @@ This project demonstrates polymorphism and inheritance in Java using a vehicle e
 
 
 
-\## Language
+## Language
 
 Java
 
