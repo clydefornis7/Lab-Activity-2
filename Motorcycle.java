@@ -20,6 +20,8 @@ public class Motorcycle extends Vehicle implements Serviceable {
 
     @Override
     public void service() {
-        System.out.println("Motorcycle is being serviced.");
+        System.out.println("Motorcycle: inspect tires and brakes.");
+        
     }
 }
+

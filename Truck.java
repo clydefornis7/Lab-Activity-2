@@ -20,6 +20,6 @@ public class Truck extends Vehicle implements Serviceable {
 
     @Override
     public void service() {
-        System.out.println("Truck is being serviced.");
+        System.out.println("Truck: inspect cargo brakes.");
     }
 }
