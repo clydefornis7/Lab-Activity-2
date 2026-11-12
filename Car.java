@@ -1,4 +1,4 @@
-public class Car extends Vehicle {
+public class Car extends Vehicle implements Serviceable {
 
     private int numberOfDoors;
 
@@ -11,5 +11,15 @@ public class Car extends Vehicle {
     public void displayInfo() {
         super.displayInfo();
         System.out.println("Doors: " + numberOfDoors);
+    }
+
+    @Override
+    public void move() {
+        System.out.println("Car is moving.");
+    }
+
+    @Override
+    public void service() {
+        System.out.println("Car is being serviced.");
     }
 }
