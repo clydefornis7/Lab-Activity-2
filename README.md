@@ -1,6 +1,6 @@
 # Java Packages – Vehicle Project
 
-**Name:** Clyde Bastasa  
+**Name:** Clyde F. Bastasa  
 **Section:** BSIT – 2A
 
 ## Description
