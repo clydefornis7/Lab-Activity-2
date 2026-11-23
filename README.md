@@ -13,17 +13,17 @@ It includes different types of vehicles, a service interface, and a printer clas
 
 ```text
 src/
-├── app/
-│   └── Main.java
+├── vehicles/
+│   ├── Vehicle.java
+│   ├── Car.java
+│   ├── Motorcycle.java
+│   └── Truck.java
 ├── contracts/
 │   └── Serviceable.java
 ├── devices/
 │   └── Printer.java
-└── vehicles/
-    ├── Vehicle.java
-    ├── Car.java
-    ├── Motorcycle.java
-    └── Truck.java
+└── app/
+    └── Main.java
 ```
 
 ## Packages Used
